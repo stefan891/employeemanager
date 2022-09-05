@@ -1,5 +1,5 @@
 # employeemanager
-first of all you have to install npm, node.js, angular, angular material, bootstrap
+first of all you have to install npm, node.js, angular, angular material, bootstrap, bulma
 
 for windows: 
   node & npm:
@@ -12,7 +12,8 @@ for windows:
     ```
     npm install -g @angular/cli
     ```
-    
+  bulma:
+    run `npm install --save bulma`
   
 for linux:
   run commands on terminal with sudo:
@@ -23,6 +24,7 @@ for linux:
   sudo apt install npm
   sudo npm install npm@latest -g
   sudo npm install -g @angular/cli
+  sudo npm install --save bulma
   ```
 before make any changes make sure to work on your branch and before starting your job make a pull from the master only to make sure that everything it's up to date
 
