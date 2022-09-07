@@ -1,6 +1,7 @@
 export interface EmployeeInterface {
   employeeID: Number;
   name: String;
+  surname: String;
   phoneNumber: String;
   birthplace: String;
   birthDate: String;
@@ -8,12 +9,16 @@ export interface EmployeeInterface {
   address: String;
   email: String;
   workExperience: String;
-  languages: String;
+  workInterval: {
+    from: String;
+    to: String;
+  };
+  languages: String[];
   hasLicense: Boolean;
   hasCar: Boolean;
-  workZone: String;
-  emergencyName: String;
-  emergencySurname: String;
-  emergencyPhone: String;
-  emergencyEmail: String;
+  workZone?: String;
+  emergencyName?: String ;
+  emergencySurname?: String;
+  emergencyPhone?: String;
+  emergencyEmail?: String;
 }
